@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Sin título-1.jpg</file>
+        <file>789.jpg</file>
+        <file>13.png</file>
+        <file>iconos de menu/78.png</file>
+        <file>iconos de menu/estud.jpg</file>
+        <file>iconos de menu/índice.jpeg</file>
+        <file>iconos de menu/índiceqwe.jpg</file>
+        <file>iconos de menu/hombre-de-negocios_318-72886.jpg</file>
+        <file>iconos de menu/Male Portrait.ico</file>
+        <file>iconos de menu/Msn.ico</file>
+        <file>iconos de menu/Sin título-1.jpg</file>
+        <file>iconos de menu/1.jpg</file>
+        <file>iconos de menu/2.jpg</file>
+        <file>iconos de menu/Alpha Dista Icon 16.ico</file>
+        <file>iconos de menu/Alpha Dista Icon 18.ico</file>
+        <file>iconos de menu/Alpha Dista Icon 20.ico</file>
+        <file>iconos de menu/asd.jpg</file>
+        <file>iconos de menu/asdf.jpg</file>
+        <file>índice.png</file>
+        <file>iconos de menu/xing.png</file>
+        <file>iconos de menu/yahoo_buzz.png</file>
+        <file>iconos de menu/yelp.png</file>
+        <file>iconos de menu/design_float.png</file>
+        <file>iconos de menu/deviant_art.png</file>
+        <file>iconos de menu/google_talk.png</file>
+        <file>iconos de menu/paypal.png</file>
+        <file>iconos de menu/picasa.png</file>
+        <file>iconos de menu/skype.png</file>
+        <file>iconos de menu/slideshare.png</file>
+        <file>iconos de menu/wikipedia.png</file>
+        <file>f.png</file>
+        <file>iconos de menu/Sin título-1.png</file>
+        <file>iconos de menu/Sin título-2.png</file>
+    </qresource>
+</RCC>

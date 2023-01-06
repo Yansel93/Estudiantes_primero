@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Inicio</class>
+ <widget class="QMainWindow" name="Inicio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Inicio</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/new/prefix1/13.png</normaloff>:/new/prefix1/13.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>500</width>
+      <height>400</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/new/prefix1/Sin título-1.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>190</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Creditos</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img.qrc">
+      <normaloff>:/new/prefix1/789.jpg</normaloff>:/new/prefix1/789.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>260</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img.qrc">
+      <normaloff>:/new/prefix1/iconos de menu/índice.jpeg</normaloff>:/new/prefix1/iconos de menu/índice.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuInsertar">
+    <property name="title">
+     <string>Insertar</string>
+    </property>
+    <addaction name="actionGrupo_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionHoras_Clases_2"/>
+    <addaction name="actionEstudiantes_2"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuMostrar">
+    <property name="title">
+     <string>Mostrar</string>
+    </property>
+    <addaction name="actionGrupo"/>
+    <addaction name="actionEstudiantes"/>
+    <addaction name="separator"/>
+    <addaction name="actionHoras_Clases"/>
+    <addaction name="actionNotas"/>
+    <addaction name="separator"/>
+    <addaction name="actionLista_de_Grupos_Limpios"/>
+    <addaction name="actionAsignatura_con_mas_estudiantes_suspensos_por_m_s_de_20_de_ausencias"/>
+    <addaction name="separator"/>
+    <addaction name="actionEstudiante_con_mas_ausencias"/>
+    <addaction name="actionPromedio_de_ausencias_y_notas_por_asignatura"/>
+    <addaction name="separator"/>
+    <addaction name="actionListado_total_de_estudiantes_ordenado_por_notas"/>
+    <addaction name="separator"/>
+    <addaction name="actionPeor_estudiante_acad_micamente"/>
+    <addaction name="actionMejor_estudiante_acad_micamente"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuInsertar"/>
+   <addaction name="menuMostrar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/índice.jpeg</normaloff>:/new/prefix1/iconos de menu/índice.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionGrupo">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/asd.jpg</normaloff>:/new/prefix1/iconos de menu/asd.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Grupo</string>
+   </property>
+  </action>
+  <action name="actionHoras_Clases">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/Alpha Dista Icon 18.ico</normaloff>:/new/prefix1/iconos de menu/Alpha Dista Icon 18.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Horas Clases</string>
+   </property>
+  </action>
+  <action name="actionEstudiantes">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/Male Portrait.ico</normaloff>:/new/prefix1/iconos de menu/Male Portrait.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+  </action>
+  <action name="actionGrupo_2">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/hombre-de-negocios_318-72886.jpg</normaloff>:/new/prefix1/iconos de menu/hombre-de-negocios_318-72886.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Grupo</string>
+   </property>
+  </action>
+  <action name="actionHoras_Clases_2">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/asdf.jpg</normaloff>:/new/prefix1/iconos de menu/asdf.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Horas Clases</string>
+   </property>
+  </action>
+  <action name="actionEstudiantes_2">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/78.png</normaloff>:/new/prefix1/iconos de menu/78.png</iconset>
+   </property>
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Grupos_Limpios">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/1.jpg</normaloff>:/new/prefix1/iconos de menu/1.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Lista de Grupos Limpios</string>
+   </property>
+  </action>
+  <action name="actionEstudiante_con_mas_ausencias">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/Msn.ico</normaloff>:/new/prefix1/iconos de menu/Msn.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Estudiante con mas ausencias</string>
+   </property>
+  </action>
+  <action name="actionPromedio_de_ausencias_y_notas_por_asignatura">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/paypal.png</normaloff>:/new/prefix1/iconos de menu/paypal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Promedio de ausencias y notas por asignatura</string>
+   </property>
+  </action>
+  <action name="actionAsignatura_con_mas_estudiantes_suspensos_por_m_s_de_20_de_ausencias">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/Sin título-1.jpg</normaloff>:/new/prefix1/iconos de menu/Sin título-1.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Asignatura con mas estudiantes suspensos por más de 20% de ausencias</string>
+   </property>
+  </action>
+  <action name="actionMejor_estudiante_acad_micamente">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/índiceqwe.jpg</normaloff>:/new/prefix1/iconos de menu/índiceqwe.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Mejor estudiante académicamente</string>
+   </property>
+  </action>
+  <action name="actionPeor_estudiante_acad_micamente">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/estud.jpg</normaloff>:/new/prefix1/iconos de menu/estud.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Peor estudiante académicamente</string>
+   </property>
+  </action>
+  <action name="actionListado_total_de_estudiantes_ordenado_por_notas">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/slideshare.png</normaloff>:/new/prefix1/iconos de menu/slideshare.png</iconset>
+   </property>
+   <property name="text">
+    <string>Listado total de estudiantes ordenado por notas</string>
+   </property>
+  </action>
+  <action name="actionNotas">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/prefix1/iconos de menu/2.jpg</normaloff>:/new/prefix1/iconos de menu/2.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Notas</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionSalir</sender>
+   <signal>triggered()</signal>
+   <receiver>Inicio</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>218</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>commandLinkButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Inicio</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>270</x>
+     <y>250</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

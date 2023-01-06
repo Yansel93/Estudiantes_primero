@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_Promedio_de_ausencias_y_notas_por_asignatura</class>
+ <widget class="QDialog" name="frm_Promedio_de_ausencias_y_notas_por_asignatura">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>229</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Nombre del Grupo :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="CB_promedio_grupo"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Nombre del Estudiante :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="CB_promedio_estudiante"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTableWidget" name="TW_promedio">
+     <row>
+      <property name="text">
+       <string>Ausencias por asignatura</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Notas por Asignatua</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Calculo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Historia</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>EF</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>EP</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Fisica</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>378</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton">
+       <property name="text">
+        <string>Cerrar</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/new/prefix1/iconos de menu/Sin título-1.png</normaloff>:/new/prefix1/iconos de menu/Sin título-1.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>commandLinkButton</sender>
+   <signal>clicked()</signal>
+   <receiver>frm_Promedio_de_ausencias_y_notas_por_asignatura</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>467</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
